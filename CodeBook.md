@@ -1,8 +1,12 @@
 Data report overview
 
 The final dataset has the following dimensions:
-Number of observations	180
-Number of variables	68
+
+------------------------ --------
+Number of observations        180
+
+Number of variables            68
+---------------------------------
 
 The variables included in the data set are:
 - activity - factor with 6 possible values: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
