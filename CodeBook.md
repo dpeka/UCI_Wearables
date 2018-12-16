@@ -1,5 +1,11 @@
 Data report overview
 
+The data used to create this data set is obtained from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The run_analysis.R script is used to load the relevant data from various text files to create a single data set that combines all observations that had been split into training and testing sets.  
+Activities that were originally codified into a number were changed to their descriptive form (see activity variable below). 
+Data was not transformed in any other way.
+
 The final dataset has the following dimensions:
 
 ------------------------ --------
