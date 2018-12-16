@@ -6,11 +6,12 @@ The final dataset has the following dimensions:
 Number of observations        180
 
 Number of variables            68
----------------------------------
+------------------------ --------
 
 The variables included in the data set are:
-- activity - factor with 6 possible values: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
-- subject - this is a unique identifier from 1 to 30, that identifies one of the 30 individuals who participated on the test
+- activity - factor with 6 possible values: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS.
+- subject - this is a unique identifier from 1 to 30, that identifies one of the 30 individuals who participated on the test.
+
 66 additional columns that contain accelerometer data with X, Y and Z denoting the axial space over which the data was recorded.
 Because the data on this data frame is grouped, the values represent means. Therefore, the correct way to interpret the data 
 is: For activity "LAYING", for subject #1, the mean of the mean values of tBodyAcc across the X axis is 0.2215982
