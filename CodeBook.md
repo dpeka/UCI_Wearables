@@ -26,6 +26,8 @@ Note: Column Names were unchanged from original feature names to ensure full com
 Because the data on this data frame is grouped, the values represent means. Therefore, the correct way to interpret the data 
 is: For activity "LAYING", for subject #1, the mean of the mean values of tBodyAcc across the X axis is 0.2215982
 
+Please note that a "t" preceding the column name denotes time domain signals.  An "f" preceding the column name denotes frequency domain signals.
+
 - tBodyAcc-mean()-X
 - tBodyAcc-mean()-Y
 - tBodyAcc-mean()-Z
