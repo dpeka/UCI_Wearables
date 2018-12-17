@@ -22,3 +22,5 @@ The "run_analysis.R" script accomplishes the above through the following high le
 - The training and testing data sets are added together.
 - A new data set is created which contains the subject, activity, and the mean and standard deviation variables for each measurement.
 - Finally, the data is grouped by activity, subject, and the mean for each variable is then calculated - and stored in a new data frame.
+
+The final data set is a tidy data set.  Each row is an observation that corresponds to an activity and subject combination.  All column values are the average observed for the particular activity/subject combination - and each column is an independent variable (tidy data in wide format).
