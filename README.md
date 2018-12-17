@@ -7,11 +7,11 @@ Two big assumptions for the code to work:
 2 - Assumes all data is unzipped and placed in a folder called "uci_data" in the working directory of R
 
 The class project has the following objectives:
-1 - Merge the training and the test sets to create one data set.
-2 - Extracts only the measurements on the mean and standard deviation for each measurement.
-3 - Uses descriptive activity names to name the activities in the data set
-4 - Appropriately labels the data set with descriptive variable names.
-5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+- Merge the training and the test sets to create one data set.
+- Extracts only the measurements on the mean and standard deviation for each measurement.
+- Uses descriptive activity names to name the activities in the data set
+- Appropriately labels the data set with descriptive variable names.
+- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The "run_analysis.R" script accomplishes the above through the following high level pseudo-code:
 - Loads the training and testing data observations into separate data frames.
