@@ -2,8 +2,10 @@ Data report overview
 
 The data used to create this data set is obtained from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The run_analysis.R script is used to load the relevant data from various text files to create a single data set that combines all observations that had been split into training and testing sets.  
-Activities that were originally codified into a number were changed to their descriptive form (see activity variable below). 
+The "run_analysis.R" script is used to load the relevant data from various text files to create a single data set that combines all observations that had been split into training and testing sets.  
+
+Activities were changed to their descriptive form (see activity variable below). 
+
 Data was not transformed in any other way.
 
 The final dataset has the following dimensions:
@@ -19,6 +21,8 @@ The variables included in the data set are:
 - subject - this is a unique identifier from 1 to 30, that identifies one of the 30 individuals who participated on the test.
 
 66 additional columns that contain accelerometer data with X, Y and Z denoting the axial space over which the data was recorded.
+Note: Column Names were unchanged from original feature names to ensure full compatibility with original data set and original set of documentation.
+
 Because the data on this data frame is grouped, the values represent means. Therefore, the correct way to interpret the data 
 is: For activity "LAYING", for subject #1, the mean of the mean values of tBodyAcc across the X axis is 0.2215982
 
